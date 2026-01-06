@@ -77,5 +77,4 @@ Note como o grupo **VIP (Laranja)** se descola da massa no topo do eixo vertical
       jupyter notebook "Segmentação_Avançada_Clientes(RFM_K_Means).ipynb"
 
 Autor: Liora Dopacio
-
-[(https://www.linkedin.com/in/liora-dopacio/)]
+LinkedIn: (https://www.linkedin.com/in/liora-dopacio)
