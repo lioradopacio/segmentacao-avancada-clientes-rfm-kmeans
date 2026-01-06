@@ -1,9 +1,9 @@
-# 🛒 Segmentação de Clientes com K-Means & RFM
+# Segmentação de Clientes com K-Means & RFM
 
 > **Área:** Data Science / Marketing Analytics  
 > **Tecnologias:** Python, Scikit-learn, Pandas, Plotly, PyGWalker
 
-## 💼 O Problema de Negócio
+## O Problema de Negócio
 Uma empresa de varejo precisava otimizar suas campanhas de marketing.
 
 O objetivo deste projeto foi abandonar a intuição e utilizar **Machine Learning não-supervisionado** para segmentar a base de clientes automaticamente, permitindo ações personalizadas para:
@@ -11,7 +11,7 @@ O objetivo deste projeto foi abandonar a intuição e utilizar **Machine Learnin
 2.  Recuperar clientes que pararam de comprar (Perdidos/Em Risco).
 3.  Identificar novos potenciais (Novos/Promissores).
 
-## 📂 Fonte dos Dados
+## Fonte dos Dados
 O dataset utilizado neste projeto é o **Online Retail**, disponibilizado publicamente pelo [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/352/online+retail).
 
 * **Conteúdo:** Transações de um varejo online baseada no Reino Unido (e-commerce).
@@ -20,7 +20,7 @@ O dataset utilizado neste projeto é o **Online Retail**, disponibilizado public
 
 ---
 
-## 🛠️ Metodologia e Decisão Técnica
+## Metodologia e Decisão Técnica
 
 ### 1. Engenharia de Atributos (RFM)
 Transformei dados transacionais brutos em comportamento de compra:
@@ -35,7 +35,7 @@ Para não "chutar" o número de grupos, utilizei o **Método do Cotovelo (Elbow 
 
 ---
 
-## 🔍 Resultados e Insight de Negócio
+## Resultados e Insight de Negócio
 
 O algoritmo identificou 4 perfis distintos. Porém, a maior descoberta veio na análise pós-modelagem.
 
@@ -60,7 +60,7 @@ O gráfico abaixo mostra essa separação: o ponto em destaque é a situação d
 
 ---
 
-## 📊 Visualização 3D dos Clusters
+## Visualização 3D dos Clusters
 
 Para entender a separação espacial das três variáveis (R, F, M) simultaneamente, gerei uma visualização tridimensional. 
 Note como o grupo **VIP (Laranja)** se descola da massa no topo do eixo vertical (Monetário) e à esquerda (Recência zero).
@@ -69,7 +69,7 @@ Note como o grupo **VIP (Laranja)** se descola da massa no topo do eixo vertical
 
 ---
 
-## 📦 Como Executar este Projeto
+## Como Executar este Projeto
 
 1. Clone o repositório:
    ```bash
