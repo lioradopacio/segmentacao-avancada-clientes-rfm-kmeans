@@ -25,7 +25,7 @@ Transformei dados transacionais brutos em comportamento de compra:
 ### 2. Definição do Número de Clusters (Elbow Method)
 Para não "chutar" o número de grupos, utilizei o **Método do Cotovelo (Elbow Method)**. O gráfico abaixo mostra que a inércia (erro) diminui drasticamente até **K=4**, indicando que 4 é o número matemático ideal de segmentos para esta base.
 
-![Gráfico Elbow Method](elbow.png)
+![Gráfico Elbow Method](Metodo-cotovelo.png)
 
 ---
 
@@ -41,7 +41,7 @@ Aplicamos uma **Regra de Negócio** corretiva:
 
 O gráfico abaixo mostra essa separação: os pontos em **Vermelho** são ex-VIPs que precisam de contato telefônico imediato, separados dos VIPs ativos (Dourado).
 
-![Segmentação 2D com Churned VIP](scatter.png)
+![Segmentação 2D com Churned VIP](segmentacao-final-novo-cluster.png)
 
 | Cluster Final | Perfil Comportamental | Ação Recomendada |
 | :--- | :--- | :--- |
@@ -58,7 +58,7 @@ O gráfico abaixo mostra essa separação: os pontos em **Vermelho** são ex-VIP
 Para entender a separação espacial das três variáveis (R, F, M) simultaneamente, geramos uma visualização tridimensional. 
 Note como o grupo **VIP (Laranja)** se descola da massa no topo do eixo vertical (Monetário) e à esquerda (Recência zero).
 
-![Cubo 3D RFM](cubo.png)
+![Cubo 3D RFM](separacao-espacial-RFM.png)
 
 ---
 
