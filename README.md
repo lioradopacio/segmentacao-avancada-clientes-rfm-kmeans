@@ -66,4 +66,4 @@ Note como o grupo **VIP (Laranja)** se descola da massa no topo do eixo vertical
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/SEU-USUARIO/segmentacao-clientes-rfm.git
+   git clone https://github.com/lioradopacio/segmentacao-avancada-clientes-rfm-kmeans.git
