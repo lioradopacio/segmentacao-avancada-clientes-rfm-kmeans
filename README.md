@@ -41,7 +41,7 @@ Aplicamos uma **Regra de Negócio** corretiva:
 
 O gráfico abaixo mostra essa separação: os pontos em **Vermelho** são ex-VIPs que precisam de contato telefônico imediato, separados dos VIPs ativos (Dourado).
 
-![Segmentação 2D com Churned VIP](segmentacao-final-novo-cluster.png)
+![Segmentação 2D com Churned VIP](Segmentacao-final-novo-cluster.png)
 
 | Cluster Final | Perfil Comportamental | Ação Recomendada |
 | :--- | :--- | :--- |
