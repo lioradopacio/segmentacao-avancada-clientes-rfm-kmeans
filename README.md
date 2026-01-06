@@ -67,3 +67,15 @@ Note como o grupo **VIP (Laranja)** se descola da massa no topo do eixo vertical
 1. Clone o repositório:
    ```bash
    git clone https://github.com/lioradopacio/segmentacao-avancada-clientes-rfm-kmeans.git
+
+2. Instale as dependências:
+   ```bash
+   pip install -r requirements.txt
+
+3. Execute o Notebook:
+      ```bash
+      jupyter notebook "Segmentação_Avançada_Clientes(RFM_K_Means).ipynb"
+
+Autor: Liora Dopacio
+
+[(https://www.linkedin.com/in/liora-dopacio/)]
