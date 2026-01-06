@@ -11,6 +11,13 @@ O objetivo deste projeto foi abandonar a intuição e utilizar **Machine Learnin
 2.  Recuperar clientes que pararam de comprar (Perdidos/Em Risco).
 3.  Identificar novos potenciais (Novos/Promissores).
 
+## 📂 Fonte dos Dados
+O dataset utilizado neste projeto é o **Online Retail**, disponibilizado publicamente pelo [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/352/online+retail).
+
+* **Conteúdo:** Transações de um varejo online baseada no Reino Unido (e-commerce).
+* **Período:** 01/12/2010 a 09/12/2011.
+* **Volume:** +500.000 transações.
+
 ---
 
 ## 🛠️ Metodologia e Decisão Técnica
